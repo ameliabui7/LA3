@@ -79,10 +79,6 @@ body {
     background-color: pink;
 }
 
-.r2c3 {
-    padding: 0px 15px 10px;  
-}
-
 td {
     padding: 10px;
 }
@@ -110,6 +106,24 @@ td {
     font-weight: bold;
     font-size: 18px;
     background-color: pink;
+}
+
+.nav-heading-links {
+    list-style-type: none;
+    text-align: left;
+}
+
+.nav-heading-links>li>a {
+    display: block;
+    padding: 15px 20px;
+    border: 1px solid white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-weight: bold;
+}
+
+.nav-heading-links>li>a:hover {
+    background-color: palevioletred;
 }
 
 .copyright-text {
